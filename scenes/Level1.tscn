@@ -1,0 +1,263 @@
+[gd_scene format=3 uid="uid://bwdvvsut2r2ln"]
+
+[ext_resource type="Script" uid="uid://dp4gwuidqxc4n" path="res://scripts/Level1.gd" id="1_76388"]
+[ext_resource type="PackedScene" uid="uid://dmlj6xjisyyqy" path="res://scenes/Platform.tscn" id="2_svatc"]
+[ext_resource type="PackedScene" uid="uid://c07ubfd0m0gfo" path="res://scenes/Player.tscn" id="3_ecr63"]
+[ext_resource type="PackedScene" uid="uid://reuj3mtws37l" path="res://scenes/Key.tscn" id="4_n34uq"]
+[ext_resource type="PackedScene" uid="uid://djqh5j5vyn25d" path="res://scenes/ExitDoor.tscn" id="5_kbo48"]
+[ext_resource type="PackedScene" uid="uid://3hyt1sg1ug5o" path="res://scenes/Trap.tscn" id="6_4dyl1"]
+
+[node name="Level1" type="Node2D" unique_id=101797117]
+script = ExtResource("1_76388")
+
+[node name="Platform" parent="." unique_id=533543831 instance=ExtResource("2_svatc")]
+position = Vector2(-99, 519)
+
+[node name="Platform2" parent="." unique_id=1353869760 instance=ExtResource("2_svatc")]
+position = Vector2(-99, 421)
+
+[node name="Platform3" parent="." unique_id=1074296818 instance=ExtResource("2_svatc")]
+position = Vector2(104, 421)
+
+[node name="Platform4" parent="." unique_id=141691110 instance=ExtResource("2_svatc")]
+position = Vector2(104, 518)
+
+[node name="Platform42" parent="." unique_id=2127921234 instance=ExtResource("2_svatc")]
+position = Vector2(99, 608)
+
+[node name="Platform43" parent="." unique_id=1003668934 instance=ExtResource("2_svatc")]
+position = Vector2(302, 609)
+
+[node name="Platform44" parent="." unique_id=1013089636 instance=ExtResource("2_svatc")]
+position = Vector2(503, 609)
+
+[node name="Platform45" parent="." unique_id=470781800 instance=ExtResource("2_svatc")]
+position = Vector2(602, 607)
+
+[node name="Platform40" parent="." unique_id=842890862 instance=ExtResource("2_svatc")]
+position = Vector2(-100, 608)
+
+[node name="Platform5" parent="." unique_id=243673577 instance=ExtResource("2_svatc")]
+position = Vector2(308, 421)
+
+[node name="Platform6" parent="." unique_id=1309846078 instance=ExtResource("2_svatc")]
+position = Vector2(377, 449)
+
+[node name="Platform7" parent="." unique_id=1472710075 instance=ExtResource("2_svatc")]
+position = Vector2(464, 478)
+
+[node name="Platform8" parent="." unique_id=361481993 instance=ExtResource("2_svatc")]
+position = Vector2(440, 507)
+
+[node name="Platform9" parent="." unique_id=695575931 instance=ExtResource("2_svatc")]
+position = Vector2(668, 478)
+
+[node name="Platform12" parent="." unique_id=633337595 instance=ExtResource("2_svatc")]
+position = Vector2(850, 375)
+
+[node name="Platform13" parent="." unique_id=672112443 instance=ExtResource("2_svatc")]
+position = Vector2(647, 376)
+
+[node name="Platform14" parent="." unique_id=1630848544 instance=ExtResource("2_svatc")]
+position = Vector2(581, 349)
+
+[node name="Platform15" parent="." unique_id=1159259765 instance=ExtResource("2_svatc")]
+position = Vector2(471, 326)
+
+[node name="Platform16" parent="." unique_id=1952693917 instance=ExtResource("2_svatc")]
+position = Vector2(268, 326)
+
+[node name="Platform17" parent="." unique_id=297606102 instance=ExtResource("2_svatc")]
+position = Vector2(63, 326)
+
+[node name="Platform18" parent="." unique_id=2006442126 instance=ExtResource("2_svatc")]
+position = Vector2(-28, 326)
+
+[node name="Platform19" parent="." unique_id=1648861911 instance=ExtResource("2_svatc")]
+position = Vector2(-97, 240)
+
+[node name="Platform20" parent="." unique_id=1842271960 instance=ExtResource("2_svatc")]
+position = Vector2(175, 242)
+
+[node name="Platform21" parent="." unique_id=1012594391 instance=ExtResource("2_svatc")]
+position = Vector2(310, 241)
+
+[node name="Platform22" parent="." unique_id=833656053 instance=ExtResource("2_svatc")]
+position = Vector2(514, 241)
+
+[node name="Platform23" parent="." unique_id=1930781780 instance=ExtResource("2_svatc")]
+position = Vector2(720, 251)
+
+[node name="Platform24" parent="." unique_id=476513655 instance=ExtResource("2_svatc")]
+position = Vector2(848, 348)
+
+[node name="Platform25" parent="." unique_id=183394805 instance=ExtResource("2_svatc")]
+position = Vector2(851, 157)
+
+[node name="Platform26" parent="." unique_id=147243103 instance=ExtResource("2_svatc")]
+position = Vector2(566, 187)
+
+[node name="Platform28" parent="." unique_id=844336946 instance=ExtResource("2_svatc")]
+position = Vector2(513, 212)
+
+[node name="Platform29" parent="." unique_id=653727150 instance=ExtResource("2_svatc")]
+position = Vector2(449, 130)
+
+[node name="Platform30" parent="." unique_id=1519632967 instance=ExtResource("2_svatc")]
+position = Vector2(245, 131)
+
+[node name="Platform31" parent="." unique_id=2058197237 instance=ExtResource("2_svatc")]
+position = Vector2(38, 133)
+
+[node name="Platform32" parent="." unique_id=1923436307 instance=ExtResource("2_svatc")]
+position = Vector2(-23, 158)
+
+[node name="Platform33" parent="." unique_id=563007822 instance=ExtResource("2_svatc")]
+position = Vector2(-97, 51)
+
+[node name="Platform34" parent="." unique_id=705679583 instance=ExtResource("2_svatc")]
+position = Vector2(107, 50)
+
+[node name="Platform35" parent="." unique_id=1596396324 instance=ExtResource("2_svatc")]
+position = Vector2(316, 50)
+
+[node name="Platform36" parent="." unique_id=1582825463 instance=ExtResource("2_svatc")]
+position = Vector2(520, 49)
+
+[node name="Platform37" parent="." unique_id=789206580 instance=ExtResource("2_svatc")]
+position = Vector2(725, 48)
+
+[node name="Platform38" parent="." unique_id=1078728607 instance=ExtResource("2_svatc")]
+position = Vector2(851, 128)
+
+[node name="Platform39" parent="." unique_id=335617333 instance=ExtResource("2_svatc")]
+position = Vector2(352, 152)
+
+[node name="Platform27" parent="." unique_id=477842145 instance=ExtResource("2_svatc")]
+position = Vector2(651, 161)
+
+[node name="Platform10" parent="." unique_id=158694121 instance=ExtResource("2_svatc")]
+position = Vector2(800, 605)
+
+[node name="Platform11" parent="." unique_id=903869132 instance=ExtResource("2_svatc")]
+position = Vector2(849, 579)
+
+[node name="Player1" parent="." unique_id=1832414654 instance=ExtResource("3_ecr63")]
+position = Vector2(30, 592)
+
+[node name="Player2" parent="." unique_id=1881246483 instance=ExtResource("3_ecr63")]
+position = Vector2(27, 504)
+player_id = 2
+
+[node name="Key" parent="." unique_id=1646313788 instance=ExtResource("4_n34uq")]
+position = Vector2(27, 26)
+
+[node name="Key2" parent="." unique_id=1542934932 instance=ExtResource("4_n34uq")]
+position = Vector2(896, 240)
+
+[node name="ExitDoor" parent="." unique_id=849046723 instance=ExtResource("5_kbo48")]
+position = Vector2(826, 119)
+
+[node name="Trap" parent="." unique_id=1880943849 instance=ExtResource("6_4dyl1")]
+position = Vector2(277, 215)
+
+[node name="Trap3" parent="." unique_id=731382568 instance=ExtResource("6_4dyl1")]
+position = Vector2(803, 528)
+
+[node name="Trap4" parent="." unique_id=146034522 instance=ExtResource("6_4dyl1")]
+position = Vector2(1035, 556)
+
+[node name="Trap5" parent="." unique_id=1500836684 instance=ExtResource("6_4dyl1")]
+position = Vector2(913, 367)
+
+[node name="Trap6" parent="." unique_id=1145283499 instance=ExtResource("6_4dyl1")]
+position = Vector2(1105, 323)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=905013927]
+process_mode = 3
+
+[node name="StoryPanel" type="Panel" parent="CanvasLayer" unique_id=1546138850]
+offset_left = -2.0
+offset_top = 248.0
+offset_right = 1150.0
+offset_bottom = 529.0
+
+[node name="Label" type="Label" parent="CanvasLayer/StoryPanel" unique_id=65196116]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 40.0
+offset_right = 1152.0
+offset_bottom = 167.0
+text = "Lapi dan Lapu, duo kembar yang keasikan main VR tiba-tiba ketarik ke dalam gamenya. Satu-satunya cara buat mereka bisa keluar adalah mengikuti kata-kata Game Master—mereka dijanjikan akan dikembalikan ke dunia asal bila menang di semua game yang disediakan. Caranya? Mereka harus bekerja sama menyelesaikan puzzle dan mengungkap misteri yang ada!   
+
+(Level 1: Kumpulkan 2 kunci dan masuk ke pintu keluar bersama-sama!)"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="BtnMulai" type="Button" parent="CanvasLayer/StoryPanel" unique_id=1488647806]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 229.0
+offset_right = 596.0
+offset_bottom = 260.0
+text = "Mulai"
+
+[node name="BtnPause" type="Button" parent="CanvasLayer" unique_id=548843825]
+offset_left = 1099.0
+offset_top = 2.0
+offset_right = 1154.0
+offset_bottom = 33.0
+text = "Pause
+"
+
+[node name="PausePanel" type="Panel" parent="CanvasLayer" unique_id=1332378806]
+visible = false
+offset_left = 473.0
+offset_top = 297.0
+offset_right = 647.0
+offset_bottom = 337.0
+
+[node name="BtnLanjut" type="Button" parent="CanvasLayer/PausePanel" unique_id=1808557752]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Lanjut"
+
+[node name="BtnMainMenu" type="Button" parent="CanvasLayer/PausePanel" unique_id=1318971503]
+layout_mode = 0
+offset_left = 74.0
+offset_right = 170.0
+offset_bottom = 31.0
+text = "Main Menu"
+
+[node name="WinPanel" type="Panel" parent="CanvasLayer" unique_id=591447166]
+visible = false
+offset_left = 399.0
+offset_top = 278.0
+offset_right = 746.0
+offset_bottom = 398.0
+
+[node name="Label" type="Label" parent="CanvasLayer/WinPanel" unique_id=1818559204]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 23.0
+offset_right = 210.0
+offset_bottom = 46.0
+text = "Level Selesai!"
+
+[node name="BtnLevelSelect" type="Button" parent="CanvasLayer/WinPanel" unique_id=550770369]
+layout_mode = 0
+offset_left = 67.0
+offset_top = 87.0
+offset_right = 262.0
+offset_bottom = 118.0
+text = "Kembali ke Pilihan Level"
+
+[node name="Platform41" parent="." unique_id=775435433 instance=ExtResource("2_svatc")]
+position = Vector2(-198, 1038)
+
+[connection signal="pressed" from="CanvasLayer/StoryPanel/BtnMulai" to="." method="_on_btn_mulai_pressed"]
+[connection signal="pressed" from="CanvasLayer/BtnPause" to="." method="_on_btn_pause_pressed"]
+[connection signal="pressed" from="CanvasLayer/PausePanel/BtnLanjut" to="." method="_on_btn_lanjut_pressed"]
+[connection signal="pressed" from="CanvasLayer/PausePanel/BtnMainMenu" to="." method="_on_btn_main_menu_pressed"]
+[connection signal="pressed" from="CanvasLayer/WinPanel/BtnLevelSelect" to="." method="_on_btn_level_select_pressed"]

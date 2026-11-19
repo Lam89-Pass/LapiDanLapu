@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://bn3pyip6ducaq"]
+
+[ext_resource type="Script" uid="uid://dyy1g64q56k0r" path="res://scripts/LevelSelect.gd" id="1_dbyaq"]
+
+[node name="LevelSelect" type="Control" unique_id=815136394]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dbyaq")
+
+[node name="BtnLevel1" type="Button" parent="." unique_id=932075458]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 264.0
+offset_right = 771.0
+offset_bottom = 295.0
+text = "Level 1"
+
+[node name="BtnLevel2" type="Button" parent="." unique_id=1593865073]
+layout_mode = 0
+offset_left = 405.0
+offset_top = 311.0
+offset_right = 772.0
+offset_bottom = 342.0
+text = "Level 2"
+
+[node name="BtnLevel3" type="Button" parent="." unique_id=1159040502]
+layout_mode = 0
+offset_left = 406.0
+offset_top = 356.0
+offset_right = 774.0
+offset_bottom = 387.0
+text = "Level 3"
+
+[node name="BtnBack" type="Button" parent="." unique_id=521581347]
+layout_mode = 0
+offset_left = 553.0
+offset_top = 412.0
+offset_right = 624.0
+offset_bottom = 443.0
+text = "Kembali"
+
+[connection signal="pressed" from="BtnLevel1" to="." method="_on_btn_level_1_pressed"]
+[connection signal="pressed" from="BtnLevel2" to="." method="_on_btn_level_2_pressed"]
+[connection signal="pressed" from="BtnLevel3" to="." method="_on_btn_level_3_pressed"]
+[connection signal="pressed" from="BtnBack" to="." method="_on_btn_back_pressed"]

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://djqh5j5vyn25d"]
+
+[ext_resource type="Script" uid="uid://cokskiov8d64f" path="res://scripts/ExitDoor.gd" id="1_1xe4r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4gugp"]
+size = Vector2(80, 64)
+
+[node name="ExitDoor" type="Area2D" unique_id=849046723]
+script = ExtResource("1_1xe4r")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1829870786]
+offset_left = -40.0
+offset_top = -32.0
+offset_right = 40.0
+offset_bottom = 32.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=877302762]
+shape = SubResource("RectangleShape2D_4gugp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

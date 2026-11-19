@@ -1,0 +1,12 @@
+cat << 'EOF' > .gitignore
+.godot/
+*.translation
+export_presets.cfg
+EOF
+
+git init
+git add .
+git commit -m "feat: mekanik core level 1, 2 kunci, trap, dan alur UI"
+git branch -M main
+git remote add origin https://github.com/Lam89-Pass/LapiDanLapu.git
+git push -u origin main

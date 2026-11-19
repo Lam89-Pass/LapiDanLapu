@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://c1aad2vfyl0qg"]
+
+[ext_resource type="Script" uid="uid://b2bhpdtex0jby" path="res://scripts/MainMenu.gd" id="1_yqorp"]
+
+[node name="MainMenu" type="Control" unique_id=1622304251]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yqorp")
+
+[node name="BtnPlay" type="Button" parent="." unique_id=79205765]
+layout_mode = 0
+offset_left = 533.0
+offset_top = 259.0
+offset_right = 574.0
+offset_bottom = 290.0
+text = "Play"
+
+[node name="BtnGuide" type="Button" parent="." unique_id=1773551363]
+layout_mode = 0
+offset_left = 533.0
+offset_top = 295.0
+offset_right = 587.0
+offset_bottom = 326.0
+text = "Guide"
+
+[node name="BtnExit" type="Button" parent="." unique_id=1296948342]
+layout_mode = 0
+offset_left = 534.0
+offset_top = 331.0
+offset_right = 571.0
+offset_bottom = 362.0
+text = "Exit"
+
+[node name="PanelGuide" type="Panel" parent="." unique_id=1513659946]
+visible = false
+layout_mode = 0
+offset_left = 105.0
+offset_top = 84.0
+offset_right = 1048.0
+offset_bottom = 551.0
+
+[node name="Label" type="Label" parent="PanelGuide" unique_id=1719090045]
+layout_mode = 0
+offset_right = 944.0
+offset_bottom = 468.0
+text = "\"Lapi: WASD | Lapu: Panah\\nKumpulkan 2 kunci dan masuk ke pintu bersama-sama\""
+autowrap_mode = 2
+
+[node name="BtnCloseGuide" type="Button" parent="PanelGuide" unique_id=1409534746]
+layout_mode = 0
+offset_left = 423.0
+offset_top = 425.0
+offset_right = 477.0
+offset_bottom = 456.0
+text = "Tutup"
+
+[connection signal="pressed" from="BtnPlay" to="." method="_on_btn_play_pressed"]
+[connection signal="pressed" from="BtnGuide" to="." method="_on_btn_guide_pressed"]
+[connection signal="pressed" from="BtnExit" to="." method="_on_btn_exit_pressed"]
+[connection signal="pressed" from="PanelGuide/BtnCloseGuide" to="." method="_on_btn_close_guide_pressed"]
